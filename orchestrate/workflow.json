@@ -1,0 +1,43 @@
+{
+  "workflow_name": "MarketMind AI Workflow",
+  "version": "1.0",
+  "platform": "IBM Orchestrate",
+  "description": "Workflow for Intelligent Market Research Assistant",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Receive User Query",
+      "action": "Accept company name or market topic"
+    },
+    {
+      "step": 2,
+      "name": "Market Intelligence Agent",
+      "action": "Collect latest market news and industry reports"
+    },
+    {
+      "step": 3,
+      "name": "Competitor Analysis Agent",
+      "action": "Analyze competitors and compare products/services"
+    },
+    {
+      "step": 4,
+      "name": "Customer Sentiment Agent",
+      "action": "Analyze customer reviews and social media sentiment"
+    },
+    {
+      "step": 5,
+      "name": "Market Forecast Agent",
+      "action": "Predict future trends and business opportunities"
+    },
+    {
+      "step": 6,
+      "name": "IBM Granite Model",
+      "action": "Generate summary, insights, and recommendations"
+    },
+    {
+      "step": 7,
+      "name": "Dashboard",
+      "action": "Display market insights, charts, and alerts"
+    }
+  ]
+}
