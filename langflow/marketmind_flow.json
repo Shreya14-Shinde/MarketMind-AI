@@ -1,0 +1,38 @@
+{
+  "project_name": "MarketMind AI",
+  "flow_name": "Market Research Workflow",
+  "version": "1.0",
+  "description": "Langflow workflow for Intelligent Market Research Assistant built using IBM Granite Models.",
+  "workflow": [
+    {
+      "step": 1,
+      "component": "Text Input",
+      "description": "Accept company name or market query from user."
+    },
+    {
+      "step": 2,
+      "component": "News Retrieval",
+      "description": "Fetch latest market news using RAG."
+    },
+    {
+      "step": 3,
+      "component": "Customer Sentiment Analysis",
+      "description": "Analyze customer reviews and social media."
+    },
+    {
+      "step": 4,
+      "component": "Competitor Analysis",
+      "description": "Identify competitors and compare products."
+    },
+    {
+      "step": 5,
+      "component": "IBM Granite Model",
+      "description": "Generate market summary, predictions, and recommendations."
+    },
+    {
+      "step": 6,
+      "component": "Dashboard Output",
+      "description": "Display market insights and forecasts."
+    }
+  ]
+}
