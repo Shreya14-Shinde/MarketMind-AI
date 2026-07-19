@@ -1,0 +1,45 @@
+# ============================
+# MarketMind AI Requirements
+# ============================
+
+# Web Framework
+flask==3.0.3
+flask-cors==5.0.0
+
+# IBM Watsonx AI SDK
+ibm-watsonx-ai==1.1.8
+
+# LangChain
+langchain==0.2.11
+langchain-community==0.2.10
+langchain-core==0.2.25
+
+# Vector Database
+faiss-cpu==1.8.0
+
+# Embeddings & NLP
+sentence-transformers==3.0.1
+transformers==4.44.2
+torch==2.4.1
+
+# HTTP Requests
+requests==2.32.3
+
+# Data Processing
+pandas==2.2.2
+numpy==2.1.1
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# News API
+newsapi-python==0.2.7
+
+# Social Media
+praw==7.8.1
+
+# Dashboard (Optional)
+streamlit==1.37.1
+
+# Utilities
+tqdm==4.66.5
