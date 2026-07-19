@@ -1,0 +1,82 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Flask
+instance/
+*.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Langflow
+langflow.db
+langflow_cache/
+
+# Vector Database
+faiss_index/
+vector_db/
+chroma_db/
+
+# Node Modules (if React frontend is used)
+node_modules/
+
+# Package Lock Files
+package-lock.json
+yarn.lock
+
+# Uploads
+uploads/
+
+# Temporary Files
+tmp/
+temp/
+
+# IBM Cloud Credentials
+ibm-credentials.json
+service_credentials.json
+
+# API Keys
+apikey.txt
+credentials.json
+
+# Miscellaneous
+*.bak
+*.tmp
