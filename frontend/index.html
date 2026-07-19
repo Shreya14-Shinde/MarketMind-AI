@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketMind AI - Intelligent Market Research Assistant</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f5f7fb;
+        }
+
+        header{
+            background:#0f62fe;
+            color:white;
+            padding:18px;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:32px;
+        }
+
+        .container{
+            width:90%;
+            margin:30px auto;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            margin-bottom:20px;
+            border-radius:12px;
+            box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        input{
+            width:80%;
+            padding:12px;
+            font-size:16px;
+            border-radius:8px;
+            border:1px solid gray;
+        }
+
+        button{
+            padding:12px 20px;
+            background:#0f62fe;
+            color:white;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+            margin-left:10px;
+        }
+
+        button:hover{
+            background:#0043ce;
+        }
+
+        h2{
+            color:#0f62fe;
+            margin-bottom:15px;
+        }
+
+        ul{
+            margin-left:20px;
+        }
+
+        footer{
+            text-align:center;
+            padding:15px;
+            background:#0f62fe;
+            color:white;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📊 MarketMind AI</h1>
+    <p>Intelligent Market Research Assistant</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Search Company</h2>
+
+        <input
+        type="text"
+        id="company"
+        placeholder="Enter Company Name (Example: Tesla, Apple, IBM)">
+
+        <button onclick="analyzeCompany()">
+            Analyze
+        </button>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Market Insights</h2>
+
+        <p id="result">
+
+        Enter a company name and click Analyze.
+
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Project Features</h2>
+
+        <ul>
+
+            <li>✔ Market Trend Analysis</li>
+
+            <li>✔ Competitor Comparison</li>
+
+            <li>✔ Customer Sentiment Analysis</li>
+
+            <li>✔ AI-Powered Demand Forecasting</li>
+
+            <li>✔ Interactive Dashboard</li>
+
+            <li>✔ IBM Granite AI Integration</li>
+
+            <li>✔ IBM Langflow Workflow</li>
+
+            <li>✔ IBM Orchestrate Automation</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<footer>
+
+Developed using IBM watsonx.ai | IBM Langflow | IBM Orchestrate | Granite Models
+
+</footer>
+
+<script>
+
+function analyzeCompany(){
+
+let company=document.getElementById("company").value;
+
+if(company==""){
+
+alert("Please enter a company name.");
+
+return;
+
+}
+
+document.getElementById("result").innerHTML=
+
+"<h3>"+company+"</h3><br>"+
+
+"<b>Market Trend:</b> Growing Market<br><br>"+
+
+"<b>Competitors:</b> Top Industry Competitors<br><br>"+
+
+"<b>Customer Sentiment:</b> Mostly Positive<br><br>"+
+
+"<b>Prediction:</b> Demand expected to increase in the coming months.<br><br>"+
+
+"<b>Recommendation:</b> Focus on innovation and customer satisfaction.";
+
+}
+
+</script>
+
+</body>
+</html>
